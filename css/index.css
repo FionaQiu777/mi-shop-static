@@ -1,7 +1,8 @@
-@import "topBar.css";
-@import "headBar.css";
-@import "headBarItem.css";
-@import "footerWrap.css";
+@import "./header/headBar.css";
+@import "./header/headBarItem.css";
+@import "./header/topBar.css";
+@import "./footer/footerWrap.css";
+@import "./header/headBar.css";
 
 * {
   margin: 0;

@@ -1,0 +1,33 @@
+@import "./siteInfo.css";
+@import "./footerBar.css";
+
+.footerWrap {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerItemWrap {
+  min-width: var(--edition-width);
+}
+
+.serve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.serveItem {
+  text-align: center;
+  width: 243px;
+  height: 25px;
+  border-left: 1px solid #e0e0e0;
+}
+
+.serveItem a {
+  font-size: 16px;
+  color: #616161;
+}

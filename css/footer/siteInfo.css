@@ -1,0 +1,79 @@
+.siteInfo {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  height: 266px;
+}
+
+.footerEdH {
+  display: flex;
+}
+
+.footerEdH div {
+  padding: 0px 20px 0px 0px;
+}
+
+.footerSites a:hover {
+  cursor: pointer;
+  color: var(--mi-orange);
+}
+
+.footerSites {
+  line-height: 19px;
+}
+
+.siteInfoLinks {
+  font-size: 12px;
+  display: block;
+}
+
+.siteInfoLinks a {
+  color: #757575;
+}
+
+.siteInfoLinks span {
+  color: var(--font-color);
+}
+
+.siteInfoText {
+  line-height: 16px;
+  font-size: 12px;
+  color: var(--font-color);
+}
+
+.siteInfoText a {
+  color: var(--font-color);
+}
+
+.iconLinksWrap {
+  margin: 4px 0px 15px;
+}
+
+.iconLinks {
+  height: 28px;
+}
+
+.safeAuto {
+  position: relative;
+}
+
+@keyframes safeChange {
+  0% {
+    z-index: -1;
+  }
+  50% {
+    z-index: 0;
+  }
+  100% {
+    z-index: -1;
+  }
+}
+
+.websiteSecurity02 {
+  position: absolute;
+  left: 0;
+  animation-name: safeChange;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
