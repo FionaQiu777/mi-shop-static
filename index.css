@@ -1,6 +1,7 @@
 @import "topBar.css";
 @import "headBar.css";
 @import "headBarItem.css";
+@import "footerWrap.css";
 
 * {
   margin: 0;
@@ -23,6 +24,9 @@ html {
 
 body {
   min-width: var(--edition-width);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
