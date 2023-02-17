@@ -21,13 +21,32 @@
 }
 
 .serveItem {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
   width: 243px;
   height: 25px;
   border-left: 1px solid #e0e0e0;
 }
 
 .serveItem a {
+  display: flex;
+  justify-content: center;
   font-size: 16px;
   color: #616161;
+  gap: 6px;
+}
+
+.serveItem:hover {
+  cursor: pointer;
+  color: var(--mi-orange);
+}
+
+.serveItem:hover a {
+  color: var(--mi-orange);
+}
+
+.serveItem span.iconfont {
+  font-size: 24px;
 }
