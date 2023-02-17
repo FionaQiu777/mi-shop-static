@@ -45,8 +45,9 @@
 }
 
 .searchForm {
+  position: relative;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-content: flex-start;
   width: 295px;
 }
@@ -76,11 +77,14 @@
 }
 
 .searchList {
+  position: absolute;
+  top: 50px;
   width: 245px;
   border-left: 1px solid var(--headBar-border);
   border-right: 1px solid var(--headBar-border);
   border-bottom: 1px solid var(--headBar-border);
   visibility: hidden;
+  background-color: var(--white);
 }
 
 .searchList div {
