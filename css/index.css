@@ -3,6 +3,7 @@
 @import "./header/topBar.css";
 @import "./footer/footerWrap.css";
 @import "./header/headBar.css";
+@import "./header/headContainer.css";
 
 * {
   margin: 0;

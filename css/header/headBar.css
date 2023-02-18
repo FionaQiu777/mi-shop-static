@@ -85,6 +85,7 @@
   border-bottom: 1px solid var(--headBar-border);
   visibility: hidden;
   background-color: var(--white);
+  z-index: 100;
 }
 
 .searchList div {

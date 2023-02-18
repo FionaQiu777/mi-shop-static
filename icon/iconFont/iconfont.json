@@ -6,6 +6,34 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "561887",
+      "name": "iconfont-angle-left",
+      "font_class": "bannerLeft",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "561888",
+      "name": "iconfont-angle-right",
+      "font_class": "bannerRight",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "33494176",
+      "name": "keyboard_arrow_right",
+      "font_class": "miniRight",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "2076258",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e88f",
+      "unicode_decimal": 59535
+    },
+    {
       "icon_id": "90513",
       "name": "15天无理由退货",
       "font_class": "exchange15",
