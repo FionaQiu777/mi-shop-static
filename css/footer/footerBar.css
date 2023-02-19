@@ -24,6 +24,10 @@
   color: #757575;
 }
 
+.itemLinks a:hover {
+  color: var(--mi-orange);
+}
+
 .footerContact {
   display: flex;
   flex-direction: column;
