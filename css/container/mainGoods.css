@@ -1,0 +1,40 @@
+.goodItem {
+  width: var(--edition-width);
+  height: 614px;
+  display: flex;
+  gap: 14px;
+  margin: 0 0 14px 0;
+}
+
+.mainGood img {
+  height: 614px;
+  width: 234px;
+}
+
+.mainGood img:hover {
+  box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+  transform: translate3d(0, -2px, 0);
+}
+
+.smallMainGoods {
+  display: flex;
+  width: 234px;
+  height: 300px;
+  background-color: #fff;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s linear;
+}
+
+.mainGood img:hover,
+.smallMainGoods:hover,
+.otherGoods:hover {
+  box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+  transform: translate3d(0, -2px, 0);
+}
+
+.smallMainGoods img {
+  width: 234px;
+  height: 300px;
+}

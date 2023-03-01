@@ -1,0 +1,50 @@
+.containerTopic {
+  position: relative;
+  display: block;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+}
+
+.moreLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 16px;
+}
+
+.moreLinksItem {
+  display: flex;
+  color: #424242;
+  margin-left: 30px;
+  font-weight: 500;
+}
+
+.moreLinksItem:hover,
+.moreLinks:hover i {
+  color: var(--mi-orange);
+}
+
+.icon-arrowRightCircle {
+  margin-left: 4px;
+  font-size: 24px;
+  color: #b0b0b0;
+}
+
+.classNav {
+  box-sizing: border-box;
+  color: #424242;
+  font-size: 16px;
+  margin-left: 30px;
+  font-weight: 500;
+  height: 45px;
+}
+
+.activeClassNav {
+  color: #ff6700;
+  border-bottom: 2px solid #ff6700;
+  visibility: visible;
+}
