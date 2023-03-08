@@ -43,6 +43,10 @@
   height: 45px;
 }
 
+.classNav:hover {
+  cursor: pointer;
+}
+
 .activeClassNav {
   color: #ff6700;
   border-bottom: 2px solid #ff6700;
